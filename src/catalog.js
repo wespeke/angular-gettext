@@ -39,7 +39,7 @@ angular.module('gettext').factory('gettextCatalog', function (gettextPlurals, $h
         },
 
         getString: function (string) {
-            return this.getStringForm(string, 0) || prefixDebug(string);
+            return this.getStringForm(string, 1) || prefixDebug(string);
         },
 
         getPlural: function (n, string, stringPlural) {

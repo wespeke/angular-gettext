@@ -1,6 +1,6 @@
 {
   "name": "angular-gettext",
-  "version": "0.2.9",
+  "version": "0.2.9-wespeke",
   "description": "Gettext support for Angular.js",
   "main": "dist/angular-gettext.js",
   "directories": {
@@ -42,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rubenv/angular-gettext.git"
+    "url": "git://github.com/wespeke/angular-gettext.git"
   }
 }
