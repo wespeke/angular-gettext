@@ -61,7 +61,7 @@ angular.module('gettext').factory('gettextCatalog', ["gettextPlurals", "$http", 
         },
 
         getString: function (string, context) {
-            string = this.getStringForm(string, 0) || prefixDebug(string);
+            string = this.getStringForm(string, 1) || prefixDebug(string);
             return context ? $interpolate(string)(context) : string;
         },
 
